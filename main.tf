@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "vpc" {
-  source = "./terraform-module/vpc"
+  source = "./terraform-modules/vpc"
 
   region              = "ap-south-1"
   vpc_cidr            = "10.0.0.0/16"
