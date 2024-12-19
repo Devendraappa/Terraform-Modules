@@ -1,7 +1,7 @@
 name: Deploy VPC-Module
 
 on:
-  #push:
+  push:
     branches:
       - main
 
